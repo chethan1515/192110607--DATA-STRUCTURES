@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main()
+{
+	int a,b[20],i,c;
+  printf	("enter the number of elements in array:");
+  scanf("%d",&a);
+  for(i=0;i<a;i++)
+  {
+  	printf("enter the elements in array :");
+  	scanf("%d",&b[i]);
+  }
+  printf("enter the search element:");
+  scanf("%d",&c);
+  i=0;
+  while(i<a&& c!=b[i])
+  {
+  	i++;
+  }
+  if(i<a)
+  printf("%d position",i+1);
+  else
+  {
+  	printf("data not found");
+  } 
+  
+  }

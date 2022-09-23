@@ -48,4 +48,6 @@ int main()
                                 {0, 0, 6, 1, 0},    
                                 };   
     prim(g);    
-    return 0;  
+    return 0; 
+    
+ }
